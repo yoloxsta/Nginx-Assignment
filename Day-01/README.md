@@ -12,6 +12,8 @@
 
 - https://medium.com/@mathur.danduprolu/serving-dynamic-content-and-static-files-with-nginx-part-6-7-a12f44c92702
 
-- 
+- https://medium.com/@mathur.danduprolu/deploying-and-monitoring-nginx-in-a-production-environment-part-7-7-81e548bb2c56
+
+
 
 
