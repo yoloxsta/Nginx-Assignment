@@ -14,6 +14,9 @@
 
 - https://medium.com/@mathur.danduprolu/deploying-and-monitoring-nginx-in-a-production-environment-part-7-7-81e548bb2c56
 
+- https://freedium.cfd/https://medium.com/h7w/nginx-zero-to-hero-your-ultimate-guide-from-beginner-to-advanced-mastery-ac7e4c6b9795
+
+
 
 
 
