@@ -10,4 +10,7 @@
 
 - https://medium.com/@mathur.danduprolu/securing-your-web-server-with-nginx-https-and-best-practices-part-5-7-99ad19bf5b1f
 
-- 
+- https://medium.com/@mathur.danduprolu/serving-dynamic-content-and-static-files-with-nginx-part-6-7-a12f44c92702
+
+
+
