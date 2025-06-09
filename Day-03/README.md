@@ -43,6 +43,5 @@ server {
 - sudo ln -s /etc/nginx/sites-available/reverse-proxy /etc/nginx/sites-enabled/
 - sudo nginx -t
 - sudo systemctl restart nginx
-
-
+- *** remove 3000 from sg inbound and outbound ***
 ```
