@@ -25,3 +25,12 @@ server {
 - If you wanna setup default , sudo rm /etc/nginx/sites-enabled/helloworld
 
 ```
+| Step  | Description                                                                     |
+| ----- | ------------------------------------------------------------------------------- |
+| **1** | Created a custom HTML page in `/var/www/helloworld/index.html`                  |
+| **2** | Created a new Nginx config file `/etc/nginx/sites-available/helloworld`         |
+| **3** | Added a `server` block that listens on port 80 and serves `/var/www/helloworld` |
+| **4** | Enabled the server block using a symlink to `/etc/nginx/sites-enabled/`         |
+| **5** | Reloaded Nginx (`sudo systemctl reload nginx`)                                  |
+| **6** | Confirmed it works by visiting your EC2 public IP and seeing your custom page   |
+| **7** | Learned how to manage server blocks alongside the default site                  |
