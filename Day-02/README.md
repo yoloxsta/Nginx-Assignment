@@ -25,6 +25,8 @@ server {
 - If you wanna setup default , sudo rm /etc/nginx/sites-enabled/helloworld
 
 ```
+### Server Block Lab Recap
+
 | Step  | Description                                                                     |
 | ----- | ------------------------------------------------------------------------------- |
 | **1** | Created a custom HTML page in `/var/www/helloworld/index.html`                  |
