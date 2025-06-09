@@ -1,4 +1,5 @@
-## Day-02
+## Day-02 
+### server block with Nginx
 
 ```
 - create a folder under /var/www/
