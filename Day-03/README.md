@@ -38,6 +38,7 @@ server {
 
 - sudo npm install -g npm@11.4.1
 - pm2 start index.js
+- pm2 stop indedx (if u wanna stop)
 
 - sudo ln -s /etc/nginx/sites-available/reverse-proxy /etc/nginx/sites-enabled/
 - sudo nginx -t
