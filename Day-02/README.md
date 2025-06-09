@@ -19,6 +19,8 @@ server {
     }
 }
 
+- sudo ln -s /etc/nginx/sites-available/helloworld /etc/nginx/sites-enabled/
+- Then, you'll see "helloworld -> /etc/nginx/sites-available/helloworld" under /etc/nginx/sites-enabled
 
 
 ```
