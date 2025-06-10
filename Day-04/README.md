@@ -1,6 +1,18 @@
 ### Day-04
 
 ```
+cat hello.conf
+server {
+    listen 80;
+    server_name ip;
+    location / {
+        return 200 "Hello, Nginx is working!\n";
+        add_header Content-Type text/plain;
+    }
+}
+
+---
+
 
 
 ---
