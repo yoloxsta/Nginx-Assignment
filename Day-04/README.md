@@ -51,7 +51,7 @@ sudo systemctl restart nginx
 --- 
  run >
 
- - sudo filename on
- - sudo filename off
+ - sudo filename on (Ui enable by nginx)
+ - sudo filename off (Ui disable by nginx)
 
 ```
