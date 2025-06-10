@@ -49,6 +49,8 @@ esac
 sudo systemctl restart nginx
 
 --- 
+- sudo chmod +x filename (for executable)
+---
  run >
 
  - sudo filename on (Ui enable by nginx)
