@@ -1,6 +1,6 @@
 ### Day-04
 
-#### on-off by Nginx
+#### on-off by Nginx (Toggle Method)
 ```
 cat hello.conf
 server {
