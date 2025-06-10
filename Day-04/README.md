@@ -12,8 +12,15 @@ server {
 }
 
 ---
-
-
+cat hello.conf
+server {
+    listen 80;
+    server_name 54.236.51.183;
+    location / {
+        return 200 "Hello, Nginx is working!\n";
+        add_header Content-Type text/plain;
+    }
+}
 
 ---
 #!/bin/bash
