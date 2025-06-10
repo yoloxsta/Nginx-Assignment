@@ -1,5 +1,6 @@
 ### Day-04
 
+#### on-off by Nginx
 ```
 cat hello.conf
 server {
@@ -23,6 +24,8 @@ server {
 }
 
 ---
+- cat prod-nginx
+
 #!/bin/bash
 
 # Clear all enabled configs first
@@ -44,5 +47,11 @@ case "$1" in
 esac
 
 sudo systemctl restart nginx
+
+--- 
+ run >
+
+ - sudo filename on
+ - sudo filename off
 
 ```
