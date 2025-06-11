@@ -54,5 +54,34 @@ sudo systemctl restart nginx
  - sudo filename on (Ui enable by nginx)
  - sudo filename off (Ui disable by nginx)
 
+
+---
+
+#!/bin/bash
+
+CONF_DIR="/etc/nginx/conf.d"
+CONF_FILE="nacos.conf"
+CONF_403_FILE="nacos-403.conf"
+
+function enable_nacos() {
+    cd "$CONF_DIR" || exit 1
+    mv "${CONF_FILE}.off" "$CONF_FILE" 2>/dev/null || { echo "Error: ${CONF_FILE}.off not found"; exit 1; }
+    mv "$CONF_403_FILE" "${CONF_403_FILE}.off" 2>/dev/null
+    systemctl restart nginx && echo "Enabled ${CONF_FILE} (200 OK)"
+}
+
+function disable_nacos() {
+    cd "$CONF_DIR" || exit 1
+    mv "$CONF_FILE" "${CONF_FILE}.off" 2>/dev/null || { echo "Error: ${CONF_FILE} not found"; exit 1; }
+    mv "${CONF_403_FILE}.off" "$CONF_403_FILE" 2>/dev/null
+    systemctl restart nginx && echo "Enabled ${CONF_403_FILE} (403 Forbidden)"
+}
+
+case "$1" in
+    "on")  enable_nacos ;;
+    "off") disable_nacos ;;
+    *)     echo "Usage: $0 [on|off]"; exit 1 ;;
+esac
+
 ```
 ##
