@@ -29,6 +29,10 @@ http.createServer((req, res) => {
 });
 
 ---
+pm2 start app1.js
+pm2 start app2.js
+
+---
 sudo nano /etc/nginx/sites-available/loadbalancer
 
 upstream node_backends {
