@@ -53,8 +53,7 @@ sudo systemctl restart nginx
 
  - sudo filename on (Ui enable by nginx)
  - sudo filename off (Ui disable by nginx)
-
-
+ 
 ---
 - for nacos
 #!/bin/bash
