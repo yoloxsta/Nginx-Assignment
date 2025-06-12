@@ -56,7 +56,7 @@ sudo systemctl restart nginx
 
 
 ---
-
+- for nacos
 #!/bin/bash
 
 CONF_DIR="/etc/nginx/conf.d"
